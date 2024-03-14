@@ -1,39 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilo.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/57faba85b1.js" crossorigin="anonymous"></script>
+    <title>Pielex</title>
+</head>
 
-<html>
-    <head>
-        <title>PIELEX</title>     
-        <meta charset="UTF-8"/>  
-        <link href="estilo.css" rel="stylesheet" type="text/css"/>
-
-    </head>  
-    
-    <body>   
-        <header class="header">
-            
-              <nav class="nav">
-                <ul class="nav-menu">
-                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="index.html"><strong>CALZADO</strong></a></li>
-                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="carrito.html"><strong>CARRITO</strong></a></li> 
-                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="perfil.html"><strong>PERFIL</strong></a></li>  
-                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="sobreNosotros.html"><strong>SOBRE NOSOTROS</strong></a></li>  
-                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="ayuda.html"><strong>AYUDA</strong></a></li>                        
-                </ul>  
-            </nav>
-        </header>       
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="index.html"><strong>PIELEX</strong></a></li>
+               <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="perfil.html">PERFIL</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="sobreNosotros.html">SOBRE NOSOTROS</a></li>
+                <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="ayuda.html">AYUDA</a></li>
+            </ul>
+            <a href="carrito.html" class="cart-icon-link"><i class="fa-solid fa-cart-shopping" id="cart-icon"></i></a>
+        </nav>
+    </header>
         
-          <aside class="aside">          
+
+        <aside class="aside">    
+            <a href="index.html" style="color: gray"> << Volver</a>
+            
             <article>
                 <figure>
                     <img src="https://www.calzadocoban.com/_uploads/productos/peq/66094.jpg" alt="Calzado" width="150" height="150"/>
                 </figure>
             </article>
-          </aside>     
-              
-        
+        </aside>     
+
+
         <section class="section">      
             <article>               
                 <header>
-                    
+
                     <h2>Detalles</h2>  
                     <h3>SEGURIDAD PUNTA POLICARBONATO</h3>
                     <h3 style="color: gray">Precio: CRC 44.000.00</h3> 
@@ -41,17 +45,17 @@
                 <form action="#">  
                     <table border="0" cellspacing="5" cellpadding="5">  
                         <tbody>  
-                            
+
                             <tr>           
                                 <td><strong>Cantidad</strong></td>  
-                                <td><input type="number" name="Cantidad"/></td>        
+                                <td><input type="number" value="1" name="Cantidad"/></td>        
                             </tr>       
-                                    
-                              <tr>           
-                                  <td><strong>Talla</strong></td>  
-                                <td><input type="number" name="Talla"/></td>        
+
+                            <tr>           
+                                <td><strong>Talla</strong></td>  
+                                <td><input type="number" value="42" name="Talla"/></td>        
                             </tr>  
-                            
+
                         </tbody>        
                     </table>           
                 </form>    
